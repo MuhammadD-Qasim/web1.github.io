@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Style+Script&display=swap');
+
+*{
+    padding:0%;
+    margin: 0px;
+}
+
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2016/03/26/13/09/workspace-1280538_960_720.jpg');
+    background-size: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-color: black;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+.nav{
+    background-color: rgb(48, 40, 40, 0.5);
+    height: 40px;
+    
+}
+
+#left{
+    width: 20%;
+    position: absolute;
+    left: 20px;
+    height: 33px;    
+    top: 10px;
+
+}
+
+#left h1{
+    color: aliceblue;
+    font-size: 30px;
+    line-height: 33px;
+    font-family: 'Style Script', cursive;
+}
+
+
+#mid{
+    width: 52%;
+    display: block;
+    margin: 0px auto;
+    height: 33px;  
+    margin-top: 5px;
+
+}
+
+#mid ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 10px;
+    line-height: 33px;
+    font-size: larger;
+    margin: 0px 15px;
+    border: 2px solid rgb(3, 2, 2);
+    border-radius: 10px;2
+    background-color: rgb(61, 11, 11, 0.); //semi-transparent red
+}
+
+#mid ul li a{
+    color: aliceblue;    
+    text-decoration: none;
+}
+
+#mid ul li:hover{
+    background-color: rgba(61, 11, 11, 0.5); //semi-transparent red    
+}
+
+#mid ul li a:hover{
+    color: rgb(189, 51, 51);
+}
+#right{
+    width: 17%;
+    position: absolute;
+    right: 20px;
+    height: 33px;
+    top: 10px;
+}
+
+.btn{
+    line-height: 33px;
+    padding: 0px 10px;
+    width: 80px;
+    background-color: rgba(187, 53, 53, 0.849);
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: aliceblue;
+    font-size: medium;
+}
+
+.btn:hover{
+    background-color: rgb(129, 36, 36);
+}
+
+#section{
+    width: 50%;
+    position: absolute;
+    top: 70px;
+    left: 50px;
+}
+
+#section p{
+    color: white;
+    font-size:xx-large;
+    font-family: 'Style Script', cursive;
+    color: aliceblue;
+}
+
+.form{
+    border: 2px solid black;
+    width: 45%;
+    height: 50%;
+    position: absolute;
+    top: 240px;
+    left: 50px;
+    background-color: rgb(48, 40, 40, 0.2);
+}
+
+.form h1{
+    color: azure;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.form input{
+    display: block;
+    width: 90%;
+    margin: 7px auto;
+    line-height: 25px;
+    background-color: rgb(61, 11, 11, 0.2); 
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.form ::placeholder{
+    color: whitesmoke;
+    
+}
+
+.form button{
+    line-height: 33px;
+    margin: 0px auto;
+    display: block;
+    width: 90%;
+    background-color: rgba(187, 53, 53, 0.849);
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: aliceblue;
+    font-size: medium;
+}
